@@ -7,7 +7,7 @@ const openAdmision = () => {
     container.style.display = "flex";
     container.style.flexDirection = "column";
     container.style.backgroundColor = "rgb(218, 218, 218)";
-    container.style.width = "375px";
+    container.style.width = "335px";
     container.style.height = "375px";
     container.style.borderRadius = "15px";
     container.style.alignItems = "center";
@@ -20,7 +20,7 @@ const openExpense = () => {
     container2.style.display = "flex";
     container2.style.flexDirection = "column";
     container2.style.backgroundColor = "rgb(218, 218, 218)";
-    container2.style.width = "375px";
+    container2.style.width = "335px";
     container2.style.height = "375px";
     container2.style.borderRadius = "15px";
     container2.style.alignItems = "center";

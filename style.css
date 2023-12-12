@@ -27,15 +27,6 @@ html, body {
 }
 
 /* Navigation bar style */
-.nav {
-    background-color: rgb(218, 218, 218);
-    display: flex;
-    justify-content: space-evenly;
-    width: 375px;
-    max-width: 400px;
-    border-radius: 10px;
-    margin-bottom: 20px; /* Increasing bottom margin */
-}
 
 .button {
     width: 33.33%; /* Making buttons equally spaced */
@@ -117,7 +108,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: rgb(218, 218, 218);
-    width: 375px;
+    width: 335px;
     height: 375px;
     border-radius: 15px;
     align-items: center;
