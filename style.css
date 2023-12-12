@@ -108,7 +108,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: rgb(218, 218, 218);
-    width: 335px;
+    width: 300px;
     height: 375px;
     border-radius: 15px;
     align-items: center;
@@ -119,7 +119,7 @@ html, body {
 }
 
 .adName{
-    width: 300px;
+    width: 275px;
     height: 40px;
     text-align: center;
     border: none;
@@ -127,7 +127,7 @@ html, body {
 }
 
 .adDesc{
-    width: 300px;
+    width: 275px;
     height: 40px;
     text-align: center;
     border: none;
@@ -137,7 +137,7 @@ html, body {
 }
 
 .adDate{
-    width: 140px;
+    width: 120px;
     height: 40px;
     text-align: center;
     border: none;
@@ -145,7 +145,7 @@ html, body {
 }
 
 .adAmount{
-    width: 300px;
+    width: 275px;
     height: 40px;
     text-align: center;
     border: none;
@@ -157,12 +157,12 @@ html, body {
 .mini{
     display: flex;
     flex-direction: row;
-    width: 305px;
+    width: 275px;
     justify-content:space-between;
 }
 
 .dropDown{
-    width: 140px;
+    width: 120px;
     height: 40px;
     text-align: center;
     border: none;
@@ -170,7 +170,7 @@ html, body {
 }
 
 .cancel{
-    width: 140px;
+    width: 120px;
     height: 40px;
     text-align: center;
     border: none;
@@ -179,7 +179,7 @@ html, body {
 }
 
 .make{
-    width: 140px;
+    width: 120px;
     height: 40px;
     text-align: center;
     border: none;
