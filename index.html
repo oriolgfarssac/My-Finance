@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyFinance</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="titolPag">My Finance</h1>
+      <div class="manage">
+        <div class="col">
+          <button
+            type="number"
+            class="expense"
+            id="expense"
+            onclick="openExpense()"
+          >
+            -
+          </button>
+        </div>
+        <h1 class="balance" id="balance">0€</h1>
+        <div class="col">
+          <button
+            type="number"
+            class="admision"
+            id="admision"
+            onclick="openAdmision()"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <br />
+      <div class="newAdmision" id="newAdmision">
+        <h2 class="adTitle">Admission Form</h2>
+        <input
+          type="text"
+          placeholder="Name of the Admission..."
+          class="adName"
+        />
+        <br />
+        <input type="text" placeholder="Description..." class="adDesc" />
+        <br />
+        <input
+          type="text"
+          placeholder="Amount of Admission..."
+          class="adAmount"
+          id="admissionAmount"
+        />
+        <br />
+        <div class="mini">
+          <select class="dropDown">
+            <option>€</option>
+            <option>£</option>
+            <option>$</option>
+          </select>
+          <input type="date" name="date" id="date" class="adDate" />
+        </div>
+        <br>
+        <div class="mini">
+          <button class="cancel">Cancel Operation</button>
+          <button class="make" onclick="admision()">Make Operation</button>
+        </div>
+      </div>
+      <div class="newExpense" id="newExpense" style="display: none">
+        <h2 class="adTitle">Expense Form</h2>
+        <input
+          type="text"
+          placeholder="Name of the Expense..."
+          class="adName"
+          id="exName"
+        />
+        <br />
+        <input type="text" placeholder="Description..." class="adDesc" id="exDesc" />
+        <br />
+        <input
+          type="number"
+          placeholder="Amount of Expense..."
+          class="adAmount"
+          id="expenseAmount"
+        />
+        <br />
+        <div class="mini">
+          <select class="dropDown" id="exCoin">
+            <option>€</option>
+            <option>£</option>
+            <option>$</option>
+          </select>
+          <input type="date" name="date" class="adDate" id="exDate"/>
+        </div>
+        <br>
+        <div class="mini">
+          <button class="cancel">Cancel Operation</button>
+          <button class="make" onclick="expense()">Make Operation</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
